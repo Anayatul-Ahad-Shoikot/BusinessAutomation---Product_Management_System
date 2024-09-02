@@ -1,6 +1,8 @@
 # Project Description
 It is a simple Product Management System website where clients can create their own inventory and perform CRUD operation through this. Also here is a marketplace where we can see the total products of each created warehouse by clients.
-This website is live, hosted using infinityfree website. Click **[Here](http://product-management-system.free.nf)** to view the website.
+This website is live, hosted using infinityfree website. 
+
+Feel free to create your won inventory here. Click **[Here](http://product-management-system.free.nf)**.
 
 ## Technologies Used
 
