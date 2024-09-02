@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    max-width: 450px;
+    width: 100%;
+}
+
+#error_msg {
+    display: none;
+    color: var(--black);
+    padding: 8px 10px;
+    text-align: center;
+    background-color: #ffbdbd;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+#success_msg{
+    color: var(--black);
+    padding: 8px 10px;
+    text-align: center;
+    background-color: #bdffbe;
+    margin-bottom: 10px;
+    border: 1px solid #10ff00;
+    border-radius: 8px;
+}
+
+.form header {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: var(--main-color);
+}
+
+header h1{  
+    color: white;
+    text-align: center;
+}
+
+.form form {
+    margin: 20px 0;
+}
+
+.form form .name-details {
+    display: flex;
+}
+
+.form .name-details .field:first-child {
+    margin-right: 10px;
+}
+
+.form .name-details .field:last-child {
+    margin-left: 10px;
+}
+
+.form form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    position: relative;
+}
+
+.form form .field label {
+    margin-bottom: 2px;
+}
+
+.form form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form form .field input {
+    outline: none;
+}
+
+.form form .image input {
+    font-size: 17px;
+}
+
+.form form .button input {
+    height: 45px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    background: var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.form form .button input:hover {
+    background: rgb(39, 39, 151, .5);
+    transition: .3s;
+}
+
+.form .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form .link a {
+    color: var(--yellow);
+    font-weight: 700;
+}
+
+.form .link a:hover {
+    text-decoration: underline;
+}
