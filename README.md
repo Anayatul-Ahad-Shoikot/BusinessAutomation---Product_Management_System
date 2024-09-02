@@ -22,4 +22,4 @@ This project is inspired by the need for a simple, beginner-friendly website for
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Anayatul-Ahad-Shoikot/BusinessAutomation---Product_Management_System
+   git clone https://github.com/Anayatul-Ahad-Shoikot/BusinessAutomation---Product_Management_System.git
